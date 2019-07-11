@@ -121,6 +121,8 @@ class hydroGrid:
 
         """
 
+        print("hi")
+
         for i in range(0, self.ncpus):
 
             df = h5py.File('%s/flow.time%s.p%s.hdf5'%(self.folder, timestep, i), 'r')
